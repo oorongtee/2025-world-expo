@@ -1,0 +1,29 @@
+.customBoxShadow {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.35);
+  }
+
+
+
+/* joinParticipate */
+.joinParticipateVideo {
+  position: relative;
+}
+
+.joinParticipateVideo::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, rgba(34, 170, 224, 0.5), rgba(149, 77, 207, 0.596));
+  pointer-events: none;
+}
+
+
+/* footer */
+.footerBanner{
+  transform: translateX(-17%);
+  width: 150%; 
+  height: 150%
+}
