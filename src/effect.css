@@ -1,8 +1,10 @@
+/* 這一頁是做特殊的樣式，純外表 */
+
+
 /* 自定義 */
 .customBoxShadow {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.35);
   }
-
 
 
 /* joinParticipate */
@@ -21,25 +23,3 @@
   pointer-events: none;
 }
 
-
-
-/* RWD */
-.responsive-picture {
-  width: 100%; /* 默认宽度 */
-  height: auto;
-  transition: width 0.5s, transform 0.5s;
-}
-
-@media (min-width: 768px) {
-  .responsive-picture {
-    width: 1500%; /* 中等屏幕时放大 */
-    transform: translateX(-37.5%);
-  }
-}
-
-@media (min-width: 1024px) {
-  .responsive-picture {
-    width: 200%; /* 大屏幕时进一步放大 */
-    transform: translateX(-25%);
-  }
-}
